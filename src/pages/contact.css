@@ -1,0 +1,91 @@
+.contact-container{
+    font-size: 20px;
+    max-height: 450px;
+    overflow: auto;
+}
+
+.contact-form{
+    margin: 2rem auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 0.8rem;
+    background-color: #282c34;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #404853;
+}
+
+.success-message {
+    color: green;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.contact-information{
+    text-align: left;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link{
+    text-decoration: none;
+    color: #282c34;
+}
+
+.contact-link:hover{
+    color: #fff;
+}
+
+.cv-button .download-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #282c34;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.cv-button .download-button:hover {
+    background-color: #404853;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-container{
+        font-size: 13px;
+    }
+}

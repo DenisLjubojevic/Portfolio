@@ -1,0 +1,63 @@
+.details-container{
+    font-size: 20px;
+    max-height: 450px;
+    overflow: auto;
+}
+
+.details-image{
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin: 20px 0;
+  }
+
+.github-link{
+    color:black;
+    text-decoration: none;
+}
+
+.github-link:hover{
+    color:white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::-webkit-scrollbar-corner {
+    background: #f0f0f0;
+}
+
+@media screen and (max-width: 768px) {
+    .details-container{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .details-container{
+        font-size: 14px;
+    }
+}
