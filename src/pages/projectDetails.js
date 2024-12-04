@@ -41,21 +41,18 @@ function ProjectDetails() {
     }
 
     return (
-        <div id="projectDetails" style={{padding: "2rem", textAlign: "center"}} className='details-container'>
+        <div id="projectDetails" style={{padding: "2rem"}} className='details-container'>
             <img src={project.image} alt={project.title} className='details-image' />
             <h1>{project.title}</h1>
 
-            <p>{project.description}</p>
+            <h3>{project.description}</h3>
 
             <p>{project.content}</p>
 
             <h2>Demo Video</h2>
             <div className="video-container">
                 <iframe
-                    width="560"
-                    height="315"
                     src={project.ytLink}
-                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     title="Video Demo"

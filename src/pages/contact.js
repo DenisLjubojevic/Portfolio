@@ -57,8 +57,8 @@ function Contact() {
 
     
     return (
-        <section id="contact" style={{padding: "2rem", textAlign: "center"}} className="contact-container">
-            <h2>Contact Me</h2>
+        <section id="contact" className="contact-container">
+            <h1>Contact Me</h1>
             <p>Feel free to reach out through the form below or directly via email.</p>
             <div className="contact-form">
                 <form onSubmit={handleSubmit} className="contact-form">
@@ -93,7 +93,7 @@ function Contact() {
             <div className="contact-information">
                 <p>Email: denisljubojevic@gmail.com</p>
                 <p>Phone Number: (+385) 99 648 2573</p>
-                <p>Location: Križevci/Zagreb</p>
+                <p>Location: Križevci / Zagreb, Croatia</p>
                 <p>GitHub: <Link to='https://github.com/DenisLjubojevic' className="contact-link">link</Link></p>
                 <p>LinkedIn: <Link to='https://www.linkedin.com/in/denis-ljubojevi%C4%87-b016a5302/' className="contact-link">link</Link></p>
                 <div className="cv-button">

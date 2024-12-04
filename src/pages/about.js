@@ -3,20 +3,20 @@ import "./about.css";
 
 function About() {
     return (
-        <section id="about" style={{padding: "2rem", textAlign: "center"}} className="about-container">
+        <section id="about" style={{padding: "2rem"}} className="about-container">
             <h2>About me</h2>
-            <p>I am Junior Developer who recently finished University.
-                I have finished study at The Zagreb University of Applied Science, where I got a bachelor degree in Computing.</p>
+            <p>I am a Junior Developer who recently finished university.
+                I have finished studies at The Zagreb University of Applied Science, where I got a bachelor's degree in Computing.</p>
             
-            <p>I am hard-working and willing to learn new approuches.
-                I am currently unempolyed and without working expireience, but activly searching for job. I have experience in Web Developement
-                using Java Spring Framework for backend and Angular Cli for Frontend. Currently active working on new project using .NET for backend 
+            <p>I am hard-working and willing to learn new approaches.
+                I am currently unemployed and without working experience, but actively searching for a job. I have experience in Web Development
+                using Java Spring Framework for backend and Angular Cli for Frontend. I am currently working on a new project using .NET for backend 
                 and React for frontend.</p>
             
             <br></br>
             
             <h2>Skills</h2>
-            <p>In University I have worked on many project using different programming languages and Frameworks. I have basic experience with:
+            <p>At university, I have worked on many projects using different programming languages and frameworks. I have basic experience with:
                 Angular Cli, Angular Routing, WebSockets, Java Spring, Spring Security, JUnit, JavaFX, MySQL, CSS, HTML, GitHub, Git.</p>
         </section>
     );
