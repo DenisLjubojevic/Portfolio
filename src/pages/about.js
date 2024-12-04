@@ -3,7 +3,7 @@ import "./about.css";
 
 function About() {
     return (
-        <section id="about" style={{padding: "2rem"}} className="about-container">
+        <section id="about" style={{padding: "1rem"}} className="about-container">
             <h2>About me</h2>
             <p>I am a Junior Developer who recently finished university.
                 I have finished studies at The Zagreb University of Applied Science, where I got a bachelor's degree in Computing.</p>

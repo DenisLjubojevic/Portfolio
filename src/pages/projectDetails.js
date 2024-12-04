@@ -41,7 +41,7 @@ function ProjectDetails() {
     }
 
     return (
-        <div id="projectDetails" style={{padding: "2rem"}} className='details-container'>
+        <div id="projectDetails" style={{padding: "1rem"}} className='details-container'>
             <img src={project.image} alt={project.title} className='details-image' />
             <h1>{project.title}</h1>
 
