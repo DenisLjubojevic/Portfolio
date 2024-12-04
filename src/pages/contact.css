@@ -50,8 +50,8 @@
 
 
 .contact-information{
-    text-align: left;
-    width: 50%;
+    text-align: center;
+    padding: 10px;
     margin: auto;
     display: flex;
     flex-direction: column;
