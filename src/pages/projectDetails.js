@@ -15,7 +15,7 @@ const projectsData = {
         image: chatterBoxLogo
      },
     2: { 
-        title: "Application for managing the processes of zoos",
+        title: "Zoo Manager",
         description: "Application made for final thesis at university",
         content: "Application made for final thesis at the University. It was created using the programming language Java. It is a desktop application that has implemented authentification and authorization. It is used for managing and organizing the processes of zoos. It helps employees track their jobs and saves valuable collected data. It uses JavaFX for UI and H2 database for easier implementation.",
         ytLink: "https://www.youtube.com/embed/_OeEeEHp2BY",
@@ -42,7 +42,7 @@ function ProjectDetails() {
 
     return (
         <div id="projectDetails" style={{padding: "1rem"}} className='details-container'>
-            <img src={project.image} alt={project.title} className='details-image' />
+            <img src={project.image} alt={project.title} style={{backgroundColor: "white"}} className='details-image' />
             <h1>{project.title}</h1>
 
             <h3>{project.description}</h3>

@@ -22,15 +22,16 @@
 
 .contact-form button {
     padding: 0.8rem;
-    background-color: #282c34;
-    color: #fff;
+    background-color: #a29e9e;
+    color: #403e3e;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .contact-form button:hover {
-    background-color: #404853;
+    background-color: #403e3e;
+    color: #a29e9e;
 }
 
 .success-message {
@@ -57,26 +58,27 @@
 }
 
 .contact-link{
+    color: lightgray;
     text-decoration: none;
-    color: #282c34;
 }
 
 .contact-link:hover{
-    color: #fff;
+    color: #a29e9e;
 }
 
 .cv-button .download-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background-color: #282c34;
-    color: #fff;
+    background-color: #a29e9e;
+    color: #403e3e;
     border-radius: 5px;
     text-decoration: none;
     margin-top: 1rem;
 }
 
 .cv-button .download-button:hover {
-    background-color: #404853;
+    background-color: #403e3e;
+    color: #a29e9e;
 }
 
 @media screen and (max-width: 768px) {

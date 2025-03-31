@@ -15,7 +15,7 @@ const allProjects = [
     },
     {
         id: 2,
-        title: "Application for managing the processes of zoos",
+        title: "Zoo Manager",
         description: "Application made for final thesis at university",
         image: zooLogo,
         details: "/zoo",

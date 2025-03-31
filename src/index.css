@@ -3,12 +3,10 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(./background.jpg);
-  color: #403e3e;
+  color: white;
 }
 
 .main-container{
-  max-width: 60%;
+  max-width: 80%;
   margin: 30px auto;
-  background-color: #7c7b7b;
-  border-radius: 10px;
 }

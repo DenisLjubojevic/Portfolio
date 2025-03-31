@@ -15,11 +15,11 @@ function Navbar(){
             <div className="hamburger" onClick={toggleMenu}>
                 &#9776;
             </div>
-            <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-                <li><Link to="/" className="nav-link">Home</Link></li>
-                <li><Link to="/about" className="nav-link">About</Link></li>
-                <li><Link to="/projects" className="nav-link">Projects</Link></li>
-                <li><Link to="/contact" className="nav-link">Contact</Link></li>
+            <ul className={`nav-links ${isOpen ? "open" : "close"}`}>
+                <li><Link to="/" className="nav-link" onClick={toggleMenu}>Home</Link></li>
+                <li><Link to="/about" className="nav-link" onClick={toggleMenu}>About</Link></li>
+                <li><Link to="/projects" className="nav-link" onClick={toggleMenu}>Projects</Link></li>
+                <li><Link to="/contact" className="nav-link" onClick={toggleMenu}>Contact</Link></li>
             </ul>
         </nav>
     );
